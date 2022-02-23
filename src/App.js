@@ -1,8 +1,10 @@
 
+import DirectoryMenu from "./home/components/DirectoryMenu";
+
 function App() {
   return (
     <div>
-      HELLO WORLD
+      <DirectoryMenu />
     </div>
   );
 }
