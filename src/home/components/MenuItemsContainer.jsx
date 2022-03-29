@@ -3,7 +3,7 @@ import './menuItemsContainer.styles.scss';
 
 const MenuItemsContainer = ({title, subTitle="Sub Title", imageUrl, size}) => {
     return(      
-        <div className={`${size} menuItem`}>
+        <div className={`${size} menuItem`} > 
             <div
             className='backgroundImage'
             style={{
